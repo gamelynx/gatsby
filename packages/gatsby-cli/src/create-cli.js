@@ -269,7 +269,9 @@ function buildLocalCommands(cli, isLocalSite) {
 }
 
 function isLocalGatsbySite() {
+  console.log('customized');
   let inGatsbySite = false
+  return true;
   try {
     let { dependencies, devDependencies } = require(path.resolve(
       `./package.json`
