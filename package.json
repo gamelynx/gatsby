@@ -51,7 +51,7 @@
     "interfaces",
     "**/__tests__/fixtures/"
   ],
-  "private": true,
+  "private": false,
   "lint-staged": {
     "*.{js,jsx}": [
       "eslint --ignore-path .gitignore --ignore-path .prettierignore --fix",
